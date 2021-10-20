@@ -60,3 +60,33 @@ input[type="checkbox"] {
 #submit	{
 	width: 50%;
 }
+
+
+@media screen and (min-width: 900px)	{
+	
+	form	{
+		width: 90%;
+	}
+
+	input {
+		width: 95%;
+		padding: 0.5em;
+	}
+
+	#submit	{
+		width: 25%;
+	}
+	
+}
+
+@media screen and (min-width: 1450px)	{
+	
+	form	{
+		width: 50%;
+	}
+
+	#input-tos {
+		padding-left: 13em;
+	}
+	
+}
