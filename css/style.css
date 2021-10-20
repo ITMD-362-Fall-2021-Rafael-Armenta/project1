@@ -1,0 +1,62 @@
+html {
+	background-color: grey;
+  font-size: 1.375em;
+  line-height: 1.182em; 
+  padding: 1.182em; 
+}
+
+h1, p 	{
+	text-align: center;
+}
+
+h1	{
+	font-size: 2em;
+	background-color: #0FB7B7;
+	padding: 0.5em;
+}
+
+p	{
+	padding: 1em;
+	font-size: 1.25em;
+}
+
+ol	{
+	background-color:  #0FB7B7;
+	line-height: 2em;
+	padding: 0.5em;	
+	text-align: left;
+	font-size: 1em;
+}
+
+form {
+  width:auto;
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 95%;
+	padding: 0.5em;
+}
+
+#input-dob {
+	padding-bottom: 0.5em;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+input[type="checkbox"] {
+  width: 2em;
+  height: 1em;
+}
+
+#input-submit	{
+	padding: 0.5em;
+	text-align: center;
+}
+
+#submit	{
+	width: 50%;
+}
