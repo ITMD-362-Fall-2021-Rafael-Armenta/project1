@@ -1,32 +1,32 @@
 html {
-	background-color: #39CFCF;
+  background-color: #39CFCF;
   font-size: 1.375em;
   line-height: 2em; 
 }
 
 h1, p 	{
-	text-align: center;
-	margin: auto;
-	display: block;
-	padding: 0.2em 0;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 0.2em 0;
 }
 
 h1	{
-	font-size: 2em;
-	background-color: #0FB7B7;
-	padding: 0.5em;
+  font-size: 2em;
+  background-color: #0FB7B7;
+  padding: 0.5em;
 }
 
 p	{
-	padding: 1em;
-	font-size: 1.25em;
+  padding: 1em;
+  font-size: 1.25em;
 }
 
 ol	{
-	background-color:  #0FB7B7;
-	line-height: 2em;
-	padding: 1em;	
-	font-size: 1em;
+  background-color:  #0FB7B7;
+  line-height: 2em;
+  padding: 1em;	
+  font-size: 1em;
 }
 
 
@@ -54,7 +54,6 @@ input	{
 
 #input-tos	{
 	display: inline-block;
-	float: center;
 	width: 140%;
 }
 
@@ -102,7 +101,6 @@ input	{
 	
 	#input-tos	{
 		display: inline-block;
-		float: center;
 		width: 50%;
 	}
 
