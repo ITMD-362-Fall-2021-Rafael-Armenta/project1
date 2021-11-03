@@ -82,18 +82,18 @@ input	{
   
   form {
     width: 75%;
-	  margin-left: 20%;
+    margin-left: 20%;
   }
 
   ol  {
     width: 80%;
-	  text-align: center;
+    text-align: center;
   }
 
   label	  {
     width: 30%;
-	  padding-bottom: 1em;
-	  padding-left: 0.25em;
+    padding-bottom: 1em;
+    padding-left: 0.25em;
   }
 
   input	{
@@ -101,14 +101,14 @@ input	{
   }
 
   #input-tos	{
-	  display: inline-block;
-	  width: 50%;
+    display: inline-block;
+    width: 50%;
   }
 
   #tos {
-	  height: 2.5em;
-	  float: left;
-	  width: 1em;
+    height: 2.5em;
+    float: left;
+    width: 1em;
   }
 }
 
