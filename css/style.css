@@ -1,11 +1,14 @@
 html {
 	background-color: #39CFCF;
   font-size: 1.375em;
-  line-height: 1.182em; 
+  line-height: 2em; 
 }
 
 h1, p 	{
 	text-align: center;
+	margin: auto;
+	display: block;
+	padding: 0.2em 0;
 }
 
 h1	{
@@ -22,21 +25,35 @@ p	{
 ol	{
 	background-color:  #0FB7B7;
 	line-height: 2em;
-	padding: 0.5em;	
-	text-align: left;
+	padding: 1em;	
 	font-size: 1em;
 }
 
-form {
-  width:auto;
-  display: block;
-  margin: auto;
+
+label, input {
+	padding: 0.5em;
+	margin: auto;
+	display: inline-block;
 }
 
-input {
-  width: 95%;
-	padding: 0.5em;
+label	{
+	width: 35%;
+	line-height: 1.5em;
+	
 }
+
+input	{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
 
 #input-dob {
 	padding-bottom: 0.5em;
@@ -80,8 +97,10 @@ input[type="checkbox"] {
 
 @media screen and (min-width: 1450px)	{
 	
-	form	{
-		width: 50%;
+	form {
+		width:50%;
+		display: block;
+		margin: auto;
 	}
 
 	#input-tos {
