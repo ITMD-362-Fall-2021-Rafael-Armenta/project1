@@ -39,7 +39,7 @@ label, input {
 label	{
 	width: 35%;
 	line-height: 1.5em;
-	
+	padding-bottom: 1em;	
 }
 
 input	{
@@ -47,25 +47,21 @@ input	{
 }
 
 
-
-
-
-
-
-
-
-
 #input-dob {
 	padding-bottom: 0.5em;
+	width: 100%;
 }
 
-input[type="checkbox"] + label {
-  display: inline;
+#input-tos	{
+	display: inline-block;
+	float: center;
+	width: 140%;
 }
 
-input[type="checkbox"] {
-  width: 2em;
-  height: 1em;
+#tos {
+  height: 1.25em;
+  float: left;
+  width: 20%;
 }
 
 #input-submit	{
