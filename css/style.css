@@ -55,7 +55,7 @@ input	{
 
 #input-tos	{
   display: inline-block;
-  width: 140%;
+  width: 100%;
 }
 
 #tos {
@@ -102,7 +102,7 @@ input	{
 
   #input-tos	{
     display: inline-block;
-    width: 50%;
+    width: 75%;
   }
 
   #tos {
@@ -126,4 +126,8 @@ input	{
   label	{
     width: 25%;
   }
+  #input-tos	{
+    width: 60%;
+  }
+
 }
